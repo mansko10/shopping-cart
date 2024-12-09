@@ -5,8 +5,10 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
     }
 
+   
+
     * {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
     }
 `;
 

@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Renders Home.jsx correctly 1`] = `
+<div>
+  <div
+    class="sc-blHHSb cZfGoo"
+  >
+    <h1>
+      Welcome to our shop!
+    </h1>
+    <a
+      data-discover="true"
+      href="/shop"
+    >
+      Start Shopping
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Renders correctly > Renders Home.jsx correctly 1`] = `
+<div>
+  <div
+    class="sc-blHHSb cZfGoo"
+  >
+    <h1>
+      Welcome to our shop!
+    </h1>
+    <a
+      data-discover="true"
+      href="/shop"
+    >
+      Start Shopping
+    </a>
+  </div>
+</div>
+`;
