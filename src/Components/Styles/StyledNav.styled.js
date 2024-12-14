@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// Credits https://css-loaders.com/spinner/
 const StyledNav = styled.nav`
   background-color: #483d8b;
   display: flex;

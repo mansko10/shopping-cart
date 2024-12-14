@@ -4,7 +4,7 @@ const StyledHome = styled.div`
   text-align: center;
   box-sizing: border-box;
   padding: 50px 0;
-  height: calc(100vh - 48px);
+  min-height: calc(100vh - 48px);
   background-color: #d3edd9;
 
   h1 {

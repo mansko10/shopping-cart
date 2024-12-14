@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
 
     * {
         font-family: "Sour Gummy", Arial, Helvetica, sans-serif;
+        /* font-family: Arial, Helvetica, sans-serif; */
     }
 `;
 
