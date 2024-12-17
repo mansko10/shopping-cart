@@ -35,7 +35,10 @@ export default function Cart() {
                 </Fragment>
               );
             })}
-            <p>{getCombinedTotal()}</p>
+            <p className="combined-total">Total: ${getCombinedTotal()}</p>
+            <button type="button" className="checkout">
+              Proceed to Checkout
+            </button>
           </>
         ) : (
           <p style={{ textAlign: "center" }}>Cart is Empty</p>

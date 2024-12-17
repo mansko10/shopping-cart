@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledCart = styled.div`
-  min-height: calc(100vh - 48px);
+  min-height: calc(100vh - 106px);
   padding: 1px;
   h1 {
     text-align: center;
@@ -11,6 +11,7 @@ const StyledCart = styled.div`
   .clear-cart {
     display: block;
     margin: 10px auto;
+    padding: 5px 10px;
 
     background-color: darkred;
     color: white;
@@ -79,6 +80,29 @@ const StyledCart = styled.div`
     color: white;
     cursor: pointer;
     border: 1px solid black;
+    padding: 5px 10px;
+  }
+
+  .combined-total {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .checkout {
+    display: block;
+    margin: 10px auto;
+    background-color: #483d8b;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 300ms;
+  }
+
+  .checkout:hover {
+    transform: scale(1.035);
   }
 `;
 

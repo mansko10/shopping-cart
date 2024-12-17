@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledLoader = styled.div`
-  min-height: calc(100vh - 48px);
+  min-height: calc(100vh - 101px);
   display: flex;
   justify-content: center;
   align-items: center;

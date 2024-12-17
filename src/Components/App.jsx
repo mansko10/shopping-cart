@@ -4,6 +4,7 @@ import StyledNav from "./Styles/StyledNav.styled";
 import StyledApp from "./Styles/StyledApp";
 import { ShoppingCart } from "lucide-react";
 import { useState } from "react";
+import Footer from "./Footer";
 
 export default function App() {
   const [cart, setCart] = useState([]);
@@ -90,6 +91,7 @@ export default function App() {
             clearCart: clearCart,
           }}
         />
+        <Footer />
       </StyledApp>
     </>
   );
