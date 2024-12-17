@@ -1,7 +1,46 @@
+import StyledCart from "./Styles/StyledCart";
+import CartItem from "./CartItem";
+import { useOutletContext } from "react-router-dom";
+import { Fragment } from "react";
+
 export default function Cart() {
+  const { cart, updateProductQuantity, removeFromCart, clearCart } =
+    useOutletContext();
+
+  function getCombinedTotal() {
+    let result = 0;
+
+    cart.forEach((p) => (result += p.totalPrice));
+
+    return +result.toFixed(2);
+  }
+
   return (
-    <>
-      <h1>This is cart</h1>
-    </>
+    <StyledCart>
+      <h1>Cart:</h1>
+      <button type="button" className="clear-cart" onClick={clearCart}>
+        Clear Cart
+      </button>
+      <div className="cart">
+        {cart.length ? (
+          <>
+            {cart.map((cartProduct) => {
+              return (
+                <Fragment key={cartProduct.id}>
+                  <CartItem
+                    product={cartProduct}
+                    updateProductQuantity={updateProductQuantity}
+                    removeFromCart={removeFromCart}
+                  />
+                </Fragment>
+              );
+            })}
+            <p>{getCombinedTotal()}</p>
+          </>
+        ) : (
+          <p style={{ textAlign: "center" }}>Cart is Empty</p>
+        )}
+      </div>
+    </StyledCart>
   );
 }

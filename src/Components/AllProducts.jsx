@@ -1,4 +1,4 @@
-import { Outlet, useOutletContext, useParams } from "react-router-dom";
+import { useOutletContext, useParams } from "react-router-dom";
 import Card from "./Card";
 import CapFirstLetter from "../Util/CapFirstLetter";
 import StyledProducts from "./Styles/StyledProducts.styled";

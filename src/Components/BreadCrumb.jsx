@@ -1,5 +1,6 @@
 import StyledBreadCrumb from "./Styles/StyledBreadCrumb";
 import createBreadCrumb from "../Util/createBreadCrumb";
+import { Fragment } from "react";
 import { Link } from "react-router-dom";
 
 export default function BreadCrumb({ pathname }) {
@@ -9,20 +10,20 @@ export default function BreadCrumb({ pathname }) {
       {breadcrumbs.map((breadcrumb, index) => {
         if (index !== breadcrumbs.length - 1) {
           return (
-            <>
-              <Link to={breadcrumb.path} key={index}>
+            <Fragment key={index}>
+              <Link to={breadcrumb.path}>
                 {decodeURIComponent(breadcrumb.name)}
               </Link>
               <span>{">"}</span>
-            </>
+            </Fragment>
           );
         } else {
           return (
-            <>
-              <Link to="" key={index} className="active">
+            <Fragment key={index}>
+              <Link to="" className="active">
                 {decodeURIComponent(breadcrumb.name)}
               </Link>
-            </>
+            </Fragment>
           );
         }
       })}

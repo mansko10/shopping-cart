@@ -20,9 +20,21 @@ const StyledNav = styled.nav`
     transition: 0.5s;
   }
 
-  .active:hover {
-    background-color: white;
+  .active .cart-icon span {
     color: black;
+  }
+
+  .cart-icon {
+    position: relative;
+    padding-top: 2px;
+  }
+
+  .cart-icon span {
+    font-size: 12px;
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    color: yellow;
   }
 `;
 
