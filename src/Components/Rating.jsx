@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Star } from "lucide-react";
 import StyledRating from "./Styles/StyledRating";
 
@@ -10,3 +11,7 @@ export default function Rating({ rating }) {
     </StyledRating>
   );
 }
+
+Rating.propTypes = {
+  rating: PropTypes.object,
+};

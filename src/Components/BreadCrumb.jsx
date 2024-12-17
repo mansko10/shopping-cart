@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import StyledBreadCrumb from "./Styles/StyledBreadCrumb";
 import createBreadCrumb from "../Util/createBreadCrumb";
 import { Fragment } from "react";
@@ -30,3 +31,7 @@ export default function BreadCrumb({ pathname }) {
     </StyledBreadCrumb>
   );
 }
+
+BreadCrumb.propTypes = {
+  pathname: PropTypes.string,
+};

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
 import StyledCard from "./Styles/StyledCard.styled";
 import Rating from "./Rating";
@@ -25,3 +26,7 @@ export default function Card({ product }) {
     </>
   );
 }
+
+Card.propTypes = {
+  product: PropTypes.object,
+};

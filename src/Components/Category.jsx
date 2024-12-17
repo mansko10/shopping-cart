@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import StyledCategory from "./Styles/StyledCategory.styled";
 import { NavLink } from "react-router-dom";
 import CapFirstLetter from "../Util/CapFirstLetter";
@@ -36,3 +37,7 @@ export default function Category({ products }) {
     </>
   );
 }
+
+Category.propTypes = {
+  products: PropTypes.array,
+};

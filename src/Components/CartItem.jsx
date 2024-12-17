@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 
 export default function CartItem({
@@ -57,3 +58,9 @@ export default function CartItem({
     </div>
   );
 }
+
+CartItem.propTypes = {
+  product: PropTypes.object,
+  updateProductQuantity: PropTypes.func,
+  removeFromCart: PropTypes.func,
+};
