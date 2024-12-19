@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Renders ErrorPage.jsx correctly 1`] = `
+<div>
+  <div
+    class="sc-blHHSb gbkhKW"
+  >
+    <h1>
+      This page doesn't exist
+    </h1>
+    <a
+      data-discover="true"
+      href="/"
+    >
+      Go back to shop
+    </a>
+  </div>
+</div>
+`;

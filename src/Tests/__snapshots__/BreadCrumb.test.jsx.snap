@@ -1,0 +1,82 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Renders BreadCrumb.jsx correctly > Renders 'shop/mens' clothing' correctly 1`] = `
+<div>
+  <div
+    class="sc-blHHSb eSnmzD"
+  >
+    <a
+      data-discover="true"
+      href="/shop/"
+    >
+      shop
+    </a>
+    <span>
+      &gt;
+    </span>
+    <a
+      data-discover="true"
+      href="/shop/men's%20clothing/"
+    >
+      men's clothing
+    </a>
+    <span>
+      &gt;
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Renders BreadCrumb.jsx correctly > Renders 'shops/men's clothing/1 correctly 1`] = `
+<div>
+  <div
+    class="sc-blHHSb eSnmzD"
+  >
+    <a
+      data-discover="true"
+      href="/shop/"
+    >
+      shop
+    </a>
+    <span>
+      &gt;
+    </span>
+    <a
+      data-discover="true"
+      href="/shop/men's%20clothing/"
+    >
+      men's clothing
+    </a>
+    <span>
+      &gt;
+    </span>
+    <a
+      data-discover="true"
+      href="/shop/men's%20clothing/1/"
+    >
+      1
+    </a>
+    <span>
+      &gt;
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Renders BreadCrumb.jsx correctly > Renders shop breadcrumb correctly 1`] = `
+<div>
+  <div
+    class="sc-blHHSb eSnmzD"
+  >
+    <a
+      data-discover="true"
+      href="/shop/"
+    >
+      shop
+    </a>
+    <span>
+      &gt;
+    </span>
+  </div>
+</div>
+`;

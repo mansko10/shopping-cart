@@ -5,11 +5,11 @@ import { Fragment } from "react";
 import { Link } from "react-router-dom";
 
 export default function BreadCrumb({ pathname }) {
-  const breadcrumbs = createBreadCrumb(pathname);
+  const breadcrumb = createBreadCrumb(pathname);
   return (
     <StyledBreadCrumb>
-      {breadcrumbs.map((breadcrumb, index) => {
-        if (index !== breadcrumbs.length - 1) {
+      {breadcrumb.map((breadcrumb, index) => {
+        if (index !== breadcrumb.length - 1) {
           return (
             <Fragment key={index}>
               <Link to={breadcrumb.path}>

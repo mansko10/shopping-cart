@@ -8,8 +8,6 @@ export default function Shop() {
   const { products, error, loading } = useProducts();
   const { addToCart } = useOutletContext();
 
-  // console.log(products);
-
   if (loading) {
     return <LoadingScreen />;
   }

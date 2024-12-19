@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
 import GlobalStyles from "./Styles/Global";
 import StyledNav from "./Styles/StyledNav.styled";
 import StyledApp from "./Styles/StyledApp";

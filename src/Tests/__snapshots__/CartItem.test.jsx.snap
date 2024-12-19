@@ -1,0 +1,52 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CartItem.jsx > Renders Cartitem.jsx correctly 1`] = `
+<div>
+  <div
+    class="cart-item"
+  >
+    <img
+      alt=""
+      src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+    />
+    <p
+      class="title"
+    >
+      Mens Casual Premium Slim Fit T-Shirts
+    </p>
+    <p
+      class="totalPrice"
+    >
+      $
+      44.6
+    </p>
+    <div
+      class="modify-quantity"
+    >
+      <button
+        class="modify"
+        type="button"
+      >
+        -
+      </button>
+      <input
+        min="1"
+        type="number"
+        value="2"
+      />
+      <button
+        class="modify"
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <button
+      class="delete"
+      type="button"
+    >
+      Remove
+    </button>
+  </div>
+</div>
+`;

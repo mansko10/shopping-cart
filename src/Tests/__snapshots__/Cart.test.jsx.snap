@@ -1,0 +1,188 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Renders Cart correctly > Renders correctly when cart includes items 1`] = `
+<div>
+  <div
+    class="sc-blHHSb bopiyA"
+  >
+    <h1>
+      Cart:
+    </h1>
+    <button
+      class="clear-cart"
+      type="button"
+    >
+      Clear Cart
+    </button>
+    <div
+      class="cart"
+    >
+      <div
+        class="cart-item"
+      >
+        <img
+          alt=""
+          src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+        />
+        <p
+          class="title"
+        >
+          Mens Cotton Jacket
+        </p>
+        <p
+          class="totalPrice"
+        >
+          $
+          111.98
+        </p>
+        <div
+          class="modify-quantity"
+        >
+          <button
+            class="modify"
+            type="button"
+          >
+            -
+          </button>
+          <input
+            min="1"
+            type="number"
+            value="2"
+          />
+          <button
+            class="modify"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <button
+          class="delete"
+          type="button"
+        >
+          Remove
+        </button>
+      </div>
+      <p
+        class="combined-total"
+      >
+        Total: $
+        111.98
+      </p>
+      <button
+        class="checkout"
+        type="button"
+      >
+        Proceed to Checkout
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders Cart correctly > Renders correctly when cart is empty 1`] = `
+<div>
+  <div
+    class="sc-blHHSb bopiyA"
+  >
+    <h1>
+      Cart:
+    </h1>
+    <button
+      class="clear-cart"
+      type="button"
+    >
+      Clear Cart
+    </button>
+    <div
+      class="cart"
+    >
+      <p
+        style="text-align: center;"
+      >
+        Cart is Empty
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Cart > abc 1`] = `
+<div>
+  <div
+    class="sc-blHHSb bopiyA"
+  >
+    <h1>
+      Cart:
+    </h1>
+    <button
+      class="clear-cart"
+      type="button"
+    >
+      Clear Cart
+    </button>
+    <div
+      class="cart"
+    >
+      <div
+        class="cart-item"
+      >
+        <img
+          alt=""
+          src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+        />
+        <p
+          class="title"
+        >
+          Mens Cotton Jacket
+        </p>
+        <p
+          class="totalPrice"
+        >
+          $
+          111.98
+        </p>
+        <div
+          class="modify-quantity"
+        >
+          <button
+            class="modify"
+            type="button"
+          >
+            -
+          </button>
+          <input
+            min="1"
+            type="number"
+            value="2"
+          />
+          <button
+            class="modify"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <button
+          class="delete"
+          type="button"
+        >
+          Remove
+        </button>
+      </div>
+      <p
+        class="combined-total"
+      >
+        Total: $
+        111.98
+      </p>
+      <button
+        class="checkout"
+        type="button"
+      >
+        Proceed to Checkout
+      </button>
+    </div>
+  </div>
+</div>
+`;
