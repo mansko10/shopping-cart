@@ -1,3 +1,4 @@
+// Credits: https://www.theodinproject.com/lessons/node-path-react-new-fetching-data-in-react
 import { useState, useEffect } from "react";
 
 const useProducts = () => {
